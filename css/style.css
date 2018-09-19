@@ -1,0 +1,72 @@
+body {
+    background-image: url("../images/kittens-bg.jpg");
+    width: 99%;
+    left: 0;
+    top: 0;
+}
+
+.container {
+    background-color: rgb(235, 233, 146);
+    width: 850px;
+    padding: 0 20px 15px 20px;
+    margin: 130px 0 0 310px;
+    border-radius: 10px;
+    border: pink dashed 5px;
+}
+
+#gamename {
+    font-family: 'Acme', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+#cards {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+ol {
+    margin-left: -50px;
+}
+
+#gamerule {
+    font-size: 40px;
+    margin-left: 140px;
+
+}
+
+button {
+    background-color: rgb(73, 202, 73);
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 120px;
+}
+
+.question {
+    font-size: 25px;
+    color: rgb(10, 10, 104);
+}
+.choices {
+    width: 400px;
+    padding: 5px;
+    font-style: italic;
+}
+
+.answer {
+    font-style: italic;
+    color: rgb(99, 6, 99);
+    text-decoration-line: underline;
+}
+
+.choices:hover {
+	background-color: blue;
+	color: white;
+}
+
+p {
+    font-weight: bold;
+}
