@@ -207,7 +207,7 @@ $(document).ready(function(){
 
     $("#startbutton").click(startGame);
 
-    $("#startbutton").on("click", ".choices", (function() {
+    $("#cards").on("click", ".choices", (function() {
 		var userGuess = $(this).text();
 		if (userGuess === questions[questionCounter].correctAnswer) {
 			clearInterval(clock);
