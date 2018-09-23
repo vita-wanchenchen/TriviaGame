@@ -34,7 +34,7 @@ ol {
 
 #gamerule {
     font-size: 40px;
-    margin-left: 140px;
+    margin-left: 130px;
 
 }
 
@@ -69,4 +69,8 @@ button {
 
 p {
     font-weight: bold;
+}
+
+.answerimg {
+    width: 250px;
 }

@@ -16,6 +16,7 @@ $(document).ready(function(){
                     "Friendly", 
                     "Finicky"],
           correctAnswer: "Female",
+          image: "<img src='./images/cat-1.gif' class='answerimg'>"
         },
 
         {
@@ -25,6 +26,7 @@ $(document).ready(function(){
                       "A Hoard", 
                       "Nothing. Cats don’t congregate in groups"],
             correctAnswer: "A Clowder",
+            image: "<img src='./images/cat-2.gif' class='answerimg'>"
         },
 
         {
@@ -34,6 +36,7 @@ $(document).ready(function(){
                       "It’s raining cats and dogs", 
                       "Don’t throw the cat out with the bath water"],
             correctAnswer: "Don’t throw the cat out with the bath water",
+            image: "<img src='./images/cat-3.gif' class='answerimg'>"
         },
 
         {
@@ -43,6 +46,7 @@ $(document).ready(function(){
                       "Kneading with its paws", 
                       "Auditing for a Food Network show"],
             correctAnswer: "Kneading with its paws",
+            image: "<img src='./images/cat-4.gif' class='answerimg'>"
         },
 
         {
@@ -52,6 +56,7 @@ $(document).ready(function(){
                       "Alopecia", 
                       "Lymphadenopathy"],
             correctAnswer: "Alopecia",
+            image: "<img src='./images/cat-5.gif' class='answerimg'>"
         },
         
         {
@@ -61,6 +66,7 @@ $(document).ready(function(){
                       "200 Cats", 
                       "None"],
             correctAnswer: "200 Cats",
+            image: "<img src='./images/cat-6.gif' class='answerimg'>"
         },
         
         {
@@ -70,6 +76,7 @@ $(document).ready(function(){
                       "A cropped tail", 
                       "Extra toes"],
             correctAnswer: "Extra toes",
+            image: "<img src='./images/cat-7.gif' class='answerimg'>"
         },
         
         {
@@ -79,6 +86,7 @@ $(document).ready(function(){
                       "Ailurophobia", 
                       "There isn’t one because it’s not a recognized fear"],
             correctAnswer: "Ailurophobia",
+            image: "<img src='./images/cat-8.gif' class='answerimg'>"
         },
         
         {
@@ -88,6 +96,7 @@ $(document).ready(function(){
                       "Do nothing", 
                       "All of the above"],
             correctAnswer: "All of the above",
+            image: "<img src='./images/cat-9.gif' class='answerimg'>"
         }
     ];
 
@@ -113,7 +122,8 @@ $(document).ready(function(){
 		var correctAnswer = questions[questionCounter].correctAnswer;
 		$("#cards").append("<p>The answer was <span class='answer'>" + 
 			correctAnswer + 
-			"</span></p>");
+			"</span></p>" + 
+			questions[questionCounter].image);
 		setTimeout(nextQuestion, 4000);
 		questionCounter++;
     }
@@ -125,7 +135,8 @@ $(document).ready(function(){
 		var correctAnswer = questions[questionCounter].correctAnswer;
 		$("#cards").append("<p>The answer was <span class='answer'>" + 
 			correctAnswer + 
-			"</span></p>");
+			"</span></p>" + 
+			questions[questionCounter].image);
 		setTimeout(nextQuestion, 4000);
 		questionCounter++;
     }
@@ -138,7 +149,8 @@ $(document).ready(function(){
 			var correctAnswer = questions[questionCounter].correctAnswer;
 			$("#cards").append("<p>The answer was <span class='answer'>" + 
 				correctAnswer + 
-				"</span></p>");
+				"</span></p>" + 
+                questions[questionCounter].image);
 			setTimeout(nextQuestion, 4000);
 			questionCounter++;
 		}
