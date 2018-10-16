@@ -167,7 +167,7 @@ $(document).ready(function(){
 		$("#cards").html("<p>" + endMessage + "</p>" + "<p>You got " + 
 			correctPicks + " correct.</p>" + 
 			"<p>You got " + wrongPicks + " wrong.</p>");
-        $("#cards").append("<button id='startbutton'>Play Again?</button>");
+        $("#cards").append("<button type='button' class='btn btn-info btn-lg' id='startbutton'>Play Again?</button>");
 		gameReset();
 		$("#startbutton").click(nextQuestion);
     }

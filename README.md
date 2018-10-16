@@ -1,11 +1,10 @@
 # TriviaGame
 
-Trivia game built with HTML, CSS and jQuery.
+Trivia game built with HTML, Bootstrap, CSS and jQuery.
 
 ## How to play
 
-1. Go to https://vita-wanchenchen.github.io/TriviaGame/ to start 
-   the game.
+1. Go to https://vita-wanchenchen.github.io/TriviaGame/ to start the game.
 
 2. Click "Start" button to start the game.
 
